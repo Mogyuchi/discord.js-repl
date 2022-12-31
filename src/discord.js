@@ -2,9 +2,16 @@ const repl = require('repl')
 
 module.exports = (version, token, prefs) => {
   const Discord = require('discord.js-' + version)
-  const client = new Discord.Client({
-    intents: Object.values(Discord.GatewayIntentBits).filter(Number.isInteger),
-  })
+  const client =
+    version === 'v14'
+      ? new Discord.Client({
+          intents: Object.values(Discord.GatewayIntentBits).filter(
+            Number.isInteger
+          ),
+        })
+      : new Discord.Client({
+          intents: Object.values(Discord.Intents.FLAGS),
+        })
 
   console.log(`Node.js ${process.version}, Discord.js ${Discord.version}`)
 
