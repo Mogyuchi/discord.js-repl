@@ -6,6 +6,9 @@
   "bin": {
     "discord": "index.js"
   },
+  "scripts": {
+    "start": "node ."
+  },
   "repository": "https://github.com/yuta0801/discord.js-repl.git",
   "author": "yuta0801",
   "license": "MIT",
