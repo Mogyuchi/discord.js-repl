@@ -2,9 +2,9 @@
   "name": "discord.js-repl",
   "version": "1.0.0",
   "description": "Discord.js REPL",
-  "main": "index.js",
+  "main": "src/index.js",
   "bin": {
-    "discord": "index.js"
+    "discord": "src/index.js"
   },
   "scripts": {
     "start": "node ."
