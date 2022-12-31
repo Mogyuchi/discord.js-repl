@@ -22,7 +22,7 @@ module.exports = (version, token, prefs) => {
     r.on('exit', () => process.exit())
   })
 
-  client.on('message', message => {
+  client.on('message', (message) => {
     if (refs.onMessage) refs.onMessage(message)
     if (refs.onceMessage) {
       refs.onceMessage(message)
@@ -32,7 +32,7 @@ module.exports = (version, token, prefs) => {
 
   client.login(token)
 
-  const onceMsg = callback => refs.onceMessage = callback
-  const onMsg = callback => refs.onMessage = callback
-  const offMsg = () => refs.onMessage = null
+  const onceMsg = (callback) => (refs.onceMessage = callback)
+  const onMsg = (callback) => (refs.onMessage = callback)
+  const offMsg = () => (refs.onMessage = null)
 }

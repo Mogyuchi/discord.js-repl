@@ -9,24 +9,12 @@
     "sourceType": "module"
   },
   "rules": {
-    "arrow-parens": [
-      "warn",
-      "as-needed"
-    ],
+    "arrow-parens": ["warn", "as-needed"],
     "arrow-spacing": "error",
     "block-spacing": "error",
-    "comma-dangle": [
-      "error",
-      "always-multiline"
-    ],
-    "comma-style": [
-      "error",
-      "last"
-    ],
-    "eqeqeq": [
-      "error",
-      "always"
-    ],
+    "comma-dangle": ["error", "always-multiline"],
+    "comma-style": ["error", "last"],
+    "eqeqeq": ["error", "always"],
     "generator-star-spacing": [
       "error",
       {
@@ -64,14 +52,8 @@
     "no-var": "error",
     "prefer-arrow-callback": "error",
     "prefer-const": "error",
-    "quotes": [
-      "error",
-      "single"
-    ],
-    "semi": [
-      "error",
-      "never"
-    ],
+    "quotes": ["error", "single"],
+    "semi": ["error", "never"],
     "space-before-blocks": "error"
   }
 }

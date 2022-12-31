@@ -16,15 +16,15 @@ module.exports = (version, token) => {
 
   console.log(`Node.js ${process.version}, Discord.js ${Discord.version}`)
 
-  const file = process.argv.slice(2).find(arg =>
-    arg !== 'run' || arg.startsWith('-'),
-  )
+  const file = process.argv
+    .slice(2)
+    .find((arg) => arg !== 'run' || arg.startsWith('-'))
 
   require(resolve(file))
 }
 
 // find discord.js installed directory
-const findModulePath = version => {
+const findModulePath = (version) => {
   const subdir = join(__dirname, 'node_modules/discord.js-' + version)
   if (existsSync(subdir)) return subdir
 
