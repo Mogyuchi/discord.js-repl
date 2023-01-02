@@ -9,9 +9,11 @@ module.exports = (version, token, prefs) => {
           Number.isInteger,
         ),
       })
-      : new Discord.Client({
-        intents: Object.values(Discord.Intents.FLAGS),
-      })
+      : version === 'v13'
+        ? new Discord.Client({
+          intents: Object.values(Discord.Intents.FLAGS),
+        })
+        : new Discord.Client()
 
   console.log(`Node.js ${process.version}, Discord.js ${Discord.version}`)
 
