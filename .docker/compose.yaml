@@ -1,0 +1,18 @@
+version: '3'
+services:
+  discord.js-repl:
+    image: discord.js-repl
+    container_name: discord.js-repl
+    build:
+      context: ../
+      dockerfile: .docker/Dockerfile
+    pull_policy: always
+    restart: "no"
+    tty: true
+    volumes:
+      - type: volume
+        source: discord.js-repl
+        target: /home/nonroot/.config/preferences/
+
+volumes:
+  discord.js-repl:
