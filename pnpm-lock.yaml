@@ -8,8 +8,8 @@ dependencies:
     specifier: npm:discord.js@12.5.3
     version: /discord.js@12.5.3
   discord.js-v13:
-    specifier: npm:discord.js@13.14.0
-    version: /discord.js@13.14.0
+    specifier: npm:discord.js@13.15.1
+    version: /discord.js@13.15.1
   discord.js-v14:
     specifier: npm:discord.js@14.9.0
     version: /discord.js@14.9.0
@@ -214,8 +214,8 @@ packages:
     resolution: {integrity: sha512-OvjF+z51L3ov0OyAU0duzsYuvO01PH7x4t6DJx+guahgTnBHkhJdG7soQeTSFLWN3efnHyibZ4Z8l2EuWwJN3A==}
     dev: false
 
-  /@types/node-fetch@2.6.2:
-    resolution: {integrity: sha512-DHqhlq5jeESLy19TYhLakJ07kNumXWjcDdxXsLUMJZ6ue8VZJj4kLPQVE/2mdHh3xZziNF1xppu5lwmS53HR+A==}
+  /@types/node-fetch@2.6.3:
+    resolution: {integrity: sha512-ETTL1mOEdq/sxUtgtOhKjyB2Irra4cjxksvcMUR5Zr4n+PxVhsCD9WS46oPbHL3et9Zde7CNRr+WUNlcHvsX+w==}
     dependencies:
       '@types/node': 18.15.10
       form-data: 3.0.1
@@ -498,14 +498,14 @@ packages:
       - utf-8-validate
     dev: false
 
-  /discord.js@13.14.0:
-    resolution: {integrity: sha512-EXHAZmFHMf6qBHDsIANwSG792SYJpzEFv2nssfakyDqEn0HLxFLLXMaOxBtVohdkUMgtD+dzyeBlbDvAW/A0AA==}
+  /discord.js@13.15.1:
+    resolution: {integrity: sha512-oZPG74FFK5Nd0QOMPU4YXm6RmKTG//WEIcgclKLmIIdOVFdQUSP0UBEK95J8431YZusiB7ZAjak9RjGIe1/0bQ==}
     engines: {node: '>=16.6.0', npm: '>=7.0.0'}
     dependencies:
       '@discordjs/builders': 0.16.0
       '@discordjs/collection': 0.7.0
       '@sapphire/async-queue': 1.5.0
-      '@types/node-fetch': 2.6.2
+      '@types/node-fetch': 2.6.3
       '@types/ws': 8.5.4
       discord-api-types: 0.33.5
       form-data: 4.0.0
