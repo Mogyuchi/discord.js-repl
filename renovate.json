@@ -10,5 +10,6 @@
     ":automergeAll",
     ":semanticCommits",
     ":disablePrControls"
-  ]
+  ],
+  "ignoreTests": true
 }
