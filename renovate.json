@@ -11,5 +11,12 @@
     ":semanticCommits",
     ":disablePrControls"
   ],
-  "ignoreTests": true
+  "ignoreTests": true,
+  "regexManagers": [
+    {
+      "fileMatch": ["(^|/)\\.npmrc$"],
+      "matchStrings": ["use-node-version=(?<currentValue>.*?)\\n"],
+      "datasourceTemplate": "node-version"
+    }
+  ]
 }
