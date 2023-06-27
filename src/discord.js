@@ -1,6 +1,6 @@
 const repl = require('repl')
 
-module.exports = (version, token, prefs) => {
+module.exports = (version, restVersion, token, prefs) => {
   const Discord = require('discord.js-' + version)
   const client =
     version === 'v14'
@@ -14,8 +14,11 @@ module.exports = (version, token, prefs) => {
           intents: Object.values(Discord.Intents.FLAGS),
         })
         : new Discord.Client()
+  const REST = require('@discordjs/rest')
+  const rest =  new REST.REST({ version: restVersion }).setToken(token)
+  const Routes = require('discord-api-types/v' + restVersion)
 
-  console.log(`Node.js ${process.version}, Discord.js ${Discord.version}`)
+  console.log(`Node.js ${process.version}, Discord.js ${Discord.version}, REST API v${rest.requestManager.options.version}`)
 
   const refs = { onceMessage: null, onMessage: null }
 
@@ -24,6 +27,8 @@ module.exports = (version, token, prefs) => {
     prefs.tokens[token] = client.user.tag
     const r = repl.start()
     r.context.client = client
+    r.context.rest = rest
+    r.context.Routes = Routes.Routes
     r.context.onceMsg = onceMsg
     r.context.onMsg = onMsg
     r.context.offMsg = offMsg
