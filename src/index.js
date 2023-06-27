@@ -18,9 +18,16 @@ const prefs = new Preferences('discord.js-repl')
       : process.argv.includes('-13')
         ? 'v13'
         : 'v14'
+  const restVersion = process.argv.includes('-r6')
+    ? '6'
+    : process.argv.includes('-r8')
+      ? '8'
+      : process.argv.includes('-r9')
+        ? '9'
+        : '10'
 
   if (prefs.last && !isSelect)
-    return start(isRun, version, prefs.last)
+    return start(isRun, version, restVersion, prefs.last)
 
   let token = await selectAccount()
   if (token === 'new') token = await askToken()
@@ -28,9 +35,9 @@ const prefs = new Preferences('discord.js-repl')
   start(isRun, version, token)
 })()
 
-function start(isRun, version, token) {
+function start(isRun, version, restVersion, token) {
   if (isRun) run(version, token)
-  else discord(version, token, prefs)
+  else discord(version, restVersion, token, prefs)
 }
 
 async function selectAccount() {
