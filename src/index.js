@@ -32,7 +32,7 @@ const prefs = new Preferences('discord.js-repl')
   let token = await selectAccount()
   if (token === 'new') token = await askToken()
   prefs.last = token
-  start(isRun, version, token)
+  start(isRun, version, restVersion, token)
 })()
 
 function start(isRun, version, restVersion, token) {
