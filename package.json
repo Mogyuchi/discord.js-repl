@@ -14,7 +14,7 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "@discordjs/rest": "1.7.1",
+    "@discordjs/rest": "2.0.0",
     "discord-api-types": "0.37.52",
     "discord.js-v11": "npm:discord.js@11.6.4",
     "discord.js-v12": "npm:discord.js@12.5.3",
