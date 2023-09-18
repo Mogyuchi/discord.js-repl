@@ -113,7 +113,7 @@ packages:
       '@sapphire/snowflake': 3.5.1
       '@vladfrangu/async_event_emitter': 2.2.2
       discord-api-types: 0.37.50
-      magic-bytes.js: 1.0.15
+      magic-bytes.js: 1.0.17
       tslib: 2.6.2
       undici: 5.22.1
     dev: false
@@ -158,8 +158,8 @@ packages:
       eslint-visitor-keys: 3.4.3
     dev: true
 
-  /@eslint-community/regexpp@4.8.0:
-    resolution: {integrity: sha512-JylOEEzDiOryeUnFbQz+oViCXS0KsvR1mvHkoMiu5+UiBvy+RYX7tzlIIIEstF/gVa2tj9AQXk3dgnxv6KxhFg==}
+  /@eslint-community/regexpp@4.8.1:
+    resolution: {integrity: sha512-PWiOzLIUAjN/w5K17PoF4n6sKBw0gqLHPhywmYHP4t1VFQQVYeb1yWsJwnMVEMl3tUHME7X/SJPZLmtG7XBDxQ==}
     engines: {node: ^12.0.0 || ^14.0.0 || >=16.0.0}
     dev: true
 
@@ -244,21 +244,21 @@ packages:
     engines: {node: '>=v14.0.0', npm: '>=7.0.0'}
     dev: false
 
-  /@types/node-fetch@2.6.4:
-    resolution: {integrity: sha512-1ZX9fcN4Rvkvgv4E6PAY5WXUFWFcRWxZa3EW83UjycOB9ljJCedb2CupIP4RZMEwF/M3eTcCihbBRgwtGbg5Rg==}
+  /@types/node-fetch@2.6.5:
+    resolution: {integrity: sha512-OZsUlr2nxvkqUFLSaY2ZbA+P1q22q+KrlxWOn/38RX+u5kTkYL2mTujEpzUhGkS+K/QCYp9oagfXG39XOzyySg==}
     dependencies:
-      '@types/node': 20.6.0
-      form-data: 3.0.1
+      '@types/node': 20.6.2
+      form-data: 4.0.0
     dev: false
 
-  /@types/node@20.6.0:
-    resolution: {integrity: sha512-najjVq5KN2vsH2U/xyh2opaSEz6cZMR2SetLIlxlj08nOcmPOemJmUK2o4kUzfLqfrWE0PIrNeE16XhYDd3nqg==}
+  /@types/node@20.6.2:
+    resolution: {integrity: sha512-Y+/1vGBHV/cYk6OI1Na/LHzwnlNCAfU3ZNGrc1LdRe/LAIbdDPTTv/HU3M7yXN448aTVDq3eKRm2cg7iKLb8gw==}
     dev: false
 
   /@types/ws@8.5.5:
     resolution: {integrity: sha512-lwhs8hktwxSjf9UaZ9tG5M03PGogvFaH8gUgLNbN9HKIg0dvv6q+gkSuJ8HN4/VbyxkuLzCjlN7GquQ0gUJfIg==}
     dependencies:
-      '@types/node': 20.6.0
+      '@types/node': 20.6.2
     dev: false
 
   /@vladfrangu/async_event_emitter@2.2.2:
@@ -385,8 +385,8 @@ packages:
       restore-cursor: 3.1.0
     dev: false
 
-  /cli-spinners@2.9.0:
-    resolution: {integrity: sha512-4/aL9X3Wh0yiMQlE+eeRhWP6vclO3QRtw1JHKIT0FFUs5FjpFmESqtMvYZ0+lbzBw900b95mS0hohy+qn2VK/g==}
+  /cli-spinners@2.9.1:
+    resolution: {integrity: sha512-jHgecW0pxkonBJdrKsqxgRX9AcG+u/5k0Q7WPDfi8AogLAdwxEkyYYNWwZ5GvVFoFx2uiY1eNcSK00fh+1+FyQ==}
     engines: {node: '>=6'}
     dev: false
 
@@ -544,7 +544,7 @@ packages:
       '@discordjs/builders': 0.16.0
       '@discordjs/collection': 0.7.0
       '@sapphire/async-queue': 1.5.0
-      '@types/node-fetch': 2.6.4
+      '@types/node-fetch': 2.6.5
       '@types/ws': 8.5.5
       discord-api-types: 0.33.5
       form-data: 4.0.0
@@ -619,7 +619,7 @@ packages:
     hasBin: true
     dependencies:
       '@eslint-community/eslint-utils': 4.4.0(eslint@8.49.0)
-      '@eslint-community/regexpp': 4.8.0
+      '@eslint-community/regexpp': 4.8.1
       '@eslint/eslintrc': 2.1.2
       '@eslint/js': 8.49.0
       '@humanwhocodes/config-array': 0.11.11
@@ -749,23 +749,14 @@ packages:
     resolution: {integrity: sha512-OHx4Qwrrt0E4jEIcI5/Xb+f+QmJYNj2rrK8wiIdQOIrB9WrrJL8cjZvXdXuBTkkEwEqLycb5BeZDV1o2i9bTew==}
     engines: {node: '>=12.0.0'}
     dependencies:
-      flatted: 3.2.7
+      flatted: 3.2.9
       keyv: 4.5.3
       rimraf: 3.0.2
     dev: true
 
-  /flatted@3.2.7:
-    resolution: {integrity: sha512-5nqDSxl8nn5BSNxyR3n4I6eDmbolI6WT+QqR547RwxQapgjQBmtktdP+HTBb/a/zLsbzERTONyUB5pefh5TtjQ==}
+  /flatted@3.2.9:
+    resolution: {integrity: sha512-36yxDn5H7OFZQla0/jFJmbIKTdZAQHngCedGxiMmpNfEZM0sdEeT+WczLQrjK6D7o2aiyLYDnkw0R3JK0Qv1RQ==}
     dev: true
-
-  /form-data@3.0.1:
-    resolution: {integrity: sha512-RHkBKtLWUVwd7SqRIvCZMEvAMoGUp0XU+seQiZejj0COz3RI3hWP4sCv3gZWWLjJTd7rGwcsF5eKZGii0r/hbg==}
-    engines: {node: '>= 6'}
-    dependencies:
-      asynckit: 0.4.0
-      combined-stream: 1.0.8
-      mime-types: 2.1.35
-    dev: false
 
   /form-data@4.0.0:
     resolution: {integrity: sha512-ETEklSGi5t0QMZuiXoA/Q6vcnxcLQP5vdugSpuAyi6SVGi2clPPp+xgEhuMaHC+zGgn31Kd235W35f7Hykkaww==}
@@ -973,8 +964,8 @@ packages:
     resolution: {integrity: sha512-XsP+KhQif4bjX1kbuSiySJFNAehNxgLb6hPRGJ9QsUr8ajHkuXGdrHmFUTUUXhDwVX2R5bY4JNZEwbUiMhV+MA==}
     dev: false
 
-  /magic-bytes.js@1.0.15:
-    resolution: {integrity: sha512-bpRmwbRHqongRhA+mXzbLWjVy7ylqmfMBYaQkSs6pac0z6hBTvsgrH0r4FBYd/UYVJBmS6Rp/O+oCCQVLzKV1g==}
+  /magic-bytes.js@1.0.17:
+    resolution: {integrity: sha512-PEDpPzHpKe5AxkVmQrNPHFRvPN2ELkkj3eIg4IZO9JdhBiAY3aU53lgYXs9j8B7lpza+QiW0UA4QHCH7EskSeg==}
     dev: false
 
   /mime-db@1.52.0:
@@ -1060,7 +1051,7 @@ packages:
       bl: 4.1.0
       chalk: 4.1.2
       cli-cursor: 3.1.0
-      cli-spinners: 2.9.0
+      cli-spinners: 2.9.1
       is-interactive: 1.0.0
       is-unicode-supported: 0.1.0
       log-symbols: 4.1.0
