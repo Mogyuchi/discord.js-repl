@@ -18,8 +18,8 @@ dependencies:
     specifier: npm:discord.js@12.5.3
     version: /discord.js@12.5.3
   discord.js-v13:
-    specifier: npm:discord.js@13.16.0
-    version: /discord.js@13.16.0
+    specifier: npm:discord.js@13.17.0
+    version: /discord.js@13.17.0
   discord.js-v14:
     specifier: npm:discord.js@14.13.0
     version: /discord.js@14.13.0
@@ -543,8 +543,8 @@ packages:
       - utf-8-validate
     dev: false
 
-  /discord.js@13.16.0:
-    resolution: {integrity: sha512-bOoCs1Ilojd/UshZVxmEcpxVmHcYOv2fPVZOVq3aFV8xrKLJfaF9mxlvGZ1D1z9aIqf2NkptDr+QndeNuQBTxQ==}
+  /discord.js@13.17.0:
+    resolution: {integrity: sha512-77La+6sEX08b0Y5o2BP4Igh0XNSD6wZ8Nw41erdYz7LVbKvNuRxzN2oJveTH9IGiiueinW673wdM91Yy9/kWdQ==}
     engines: {node: '>=16.6.0', npm: '>=7.0.0'}
     dependencies:
       '@discordjs/builders': 0.16.0
