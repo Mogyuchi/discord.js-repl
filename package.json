@@ -15,7 +15,7 @@
   "private": true,
   "dependencies": {
     "@discordjs/rest": "2.2.0",
-    "discord-api-types": "0.37.65",
+    "discord-api-types": "0.37.66",
     "discord.js-v11": "npm:discord.js@11.6.4",
     "discord.js-v12": "npm:discord.js@12.5.3",
     "discord.js-v13": "npm:discord.js@13.17.1",
