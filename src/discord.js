@@ -18,7 +18,7 @@ module.exports = (version, restVersion, token, prefs) => {
   const rest =  new REST.REST({ version: restVersion }).setToken(token)
   const Routes = require('discord-api-types/v' + restVersion)
 
-  console.log(`Node.js ${process.version}, Discord.js ${Discord.version}, REST API v${rest.requestManager.options.version}`)
+  console.log(`Node.js ${process.version}, Discord.js ${Discord.version}, REST API v${rest.options.version}`)
 
   const refs = { onceMessage: null, onMessage: null }
 
