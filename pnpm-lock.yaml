@@ -12,8 +12,8 @@ importers:
         specifier: 2.3.0
         version: 2.3.0
       discord-api-types:
-        specifier: 0.37.89
-        version: 0.37.89
+        specifier: 0.37.90
+        version: 0.37.90
       discord.js-v11:
         specifier: npm:discord.js@11.6.4
         version: discord.js@11.6.4(@discordjs/uws@10.149.0)
@@ -291,8 +291,8 @@ packages:
   discord-api-types@0.37.83:
     resolution: {integrity: sha512-urGGYeWtWNYMKnYlZnOnDHm8fVRffQs3U0SpE8RHeiuLKb/u92APS8HoQnPTFbnXmY1vVnXjXO4dOxcAn3J+DA==}
 
-  discord-api-types@0.37.89:
-    resolution: {integrity: sha512-+hiYDULKma/0B7Zd9/IYK0XnYlYhWSsPYKNahUk33QEy6yuHdGwlglIfbiTBn683cmJ44IFnFYZa8UX1Ka+kDg==}
+  discord-api-types@0.37.90:
+    resolution: {integrity: sha512-lpOJSGrqHuXoM4FV/2HtjoaJpCClGFHpRNIdZEW8zPINlsCHNSfIwA2EQ8dxeE6k1QhhTuM9ZlOGVYXoU7FLgA==}
 
   discord.js@11.6.4:
     resolution: {integrity: sha512-cK6rH1PuGjSjpmEQbnpuTxq1Yv8B89SotyKUFcr4RhnsiZnfBfDOev7DD7v5vhtEyyj51NuMWFoRJzgy/m08Uw==}
@@ -1107,7 +1107,7 @@ snapshots:
 
   discord-api-types@0.37.83: {}
 
-  discord-api-types@0.37.89: {}
+  discord-api-types@0.37.90: {}
 
   discord.js@11.6.4(@discordjs/uws@10.149.0):
     dependencies:
