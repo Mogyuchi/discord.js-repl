@@ -27,5 +27,5 @@
   "devDependencies": {
     "eslint": "8.57.0"
   },
-  "packageManager": "pnpm@9.5.0"
+  "packageManager": "pnpm@9.6.0"
 }
