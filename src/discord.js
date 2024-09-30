@@ -26,6 +26,7 @@ module.exports = (version, restVersion, token, prefs) => {
     console.log(`Logged in as ${client.user.tag}!`)
     prefs.tokens[token] = client.user.tag
     const r = repl.start()
+    r.setupHistory('./.discordjs-repl_history', () => {})
     r.context.client = client
     r.context.rest = rest
     r.context.Routes = Routes.Routes
