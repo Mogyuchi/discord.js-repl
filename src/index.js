@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 const Preferences = require('preferences')
-const inquirer = require('inquirer')
+const inquirer = require('inquirer').default
 const discord = require('./discord')
 const run = require('./run')
 
