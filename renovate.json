@@ -12,10 +12,15 @@
     ":disablePrControls"
   ],
   "ignoreTests": true,
-  "regexManagers": [
+  "customManagers": [
     {
-      "fileMatch": ["(^|/)\\.npmrc$"],
-      "matchStrings": ["use-node-version=(?<currentValue>.*?)\\n"],
+      "customType": "regex",
+      "fileMatch": [
+        "(^|/)\\.npmrc$"
+      ],
+      "matchStrings": [
+        "use-node-version=(?<currentValue>.*?)\\n"
+      ],
       "depNameTemplate": "node",
       "datasourceTemplate": "node-version"
     }
