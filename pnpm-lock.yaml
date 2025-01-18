@@ -27,8 +27,8 @@ importers:
         specifier: npm:discord.js@14.17.3
         version: discord.js@14.17.3
       inquirer:
-        specifier: 12.3.0
-        version: 12.3.0(@types/node@22.10.6)
+        specifier: 12.3.2
+        version: 12.3.2(@types/node@22.10.6)
       module-alias:
         specifier: 2.2.3
         version: 2.2.3
@@ -529,8 +529,8 @@ packages:
   inherits@2.0.4:
     resolution: {integrity: sha512-k/vGaX4/Yla3WzyMCvTQOXYeIHvqOKtnqBduzTHpzpQZzAskKMhZ2K+EnBiSM9zGSoIFeMpXKxa4dYeZIQqewQ==}
 
-  inquirer@12.3.0:
-    resolution: {integrity: sha512-3NixUXq+hM8ezj2wc7wC37b32/rHq1MwNZDYdvx+d6jokOD+r+i8Q4Pkylh9tISYP114A128LCX8RKhopC5RfQ==}
+  inquirer@12.3.2:
+    resolution: {integrity: sha512-YjQCIcDd3yyDuQrbII0FBtm/ZqNoWtvaC71yeCnd5Vbg4EgzsAGaemzfpzmqfvIZEp2roSwuZZKdM0C65hA43g==}
     engines: {node: '>=18'}
     peerDependencies:
       '@types/node': '>=18'
@@ -1428,7 +1428,7 @@ snapshots:
 
   inherits@2.0.4: {}
 
-  inquirer@12.3.0(@types/node@22.10.6):
+  inquirer@12.3.2(@types/node@22.10.6):
     dependencies:
       '@inquirer/core': 10.1.4(@types/node@22.10.6)
       '@inquirer/prompts': 7.2.3(@types/node@22.10.6)
