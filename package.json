@@ -27,7 +27,7 @@
   "devDependencies": {
     "eslint": "8.57.1"
   },
-  "packageManager": "pnpm@10.5.2",
+  "packageManager": "pnpm@10.6.0",
   "pnpm": {
     "onlyBuiltDependencies": [
       "@discordjs/uws"
