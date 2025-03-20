@@ -36,9 +36,15 @@ importers:
         specifier: 2.0.2
         version: 2.0.2
     devDependencies:
+      '@eslint/js':
+        specifier: 8.57.1
+        version: 8.57.1
       eslint:
         specifier: 8.57.1
         version: 8.57.1
+      globals:
+        specifier: 16.0.0
+        version: 16.0.0
 
 packages:
 
@@ -574,6 +580,10 @@ packages:
   globals@13.24.0:
     resolution: {integrity: sha512-AhO5QUcj8llrbG09iWhPU2B204J1xnPeL8kQmVorSsy+Sjj1sk8gIyh6cUocGmH4L0UuhAJy+hJMRA4mgA4mFQ==}
     engines: {node: '>=8'}
+
+  globals@16.0.0:
+    resolution: {integrity: sha512-iInW14XItCXET01CQFqudPOWP2jYMl7T+QRQT+UNcR/iQncN/F0UNpgd76iFkBPgNQb4+X3LV9tLJYzwh+Gl3A==}
+    engines: {node: '>=18'}
 
   gopd@1.2.0:
     resolution: {integrity: sha512-ZUKRh6/kUFoAiTAtTYPZJ3hw9wNxx+BIBOijnlG9PnrJsCcSjs1wyyD6vJpaYtgnzDrKYRSqf3OO6Rfa93xsRg==}
@@ -1559,6 +1569,8 @@ snapshots:
   globals@13.24.0:
     dependencies:
       type-fest: 0.20.2
+
+  globals@16.0.0: {}
 
   gopd@1.2.0: {}
 
