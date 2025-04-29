@@ -29,7 +29,7 @@
     "eslint": "9.25.1",
     "globals": "16.0.0"
   },
-  "packageManager": "pnpm@10.9.0",
+  "packageManager": "pnpm@10.10.0",
   "pnpm": {
     "onlyBuiltDependencies": [
       "@discordjs/uws"
