@@ -24,8 +24,8 @@ importers:
         specifier: npm:discord.js@13.17.1
         version: discord.js@13.17.1
       discord.js-v14:
-        specifier: npm:discord.js@14.19.2
-        version: discord.js@14.19.2
+        specifier: npm:discord.js@14.19.3
+        version: discord.js@14.19.3
       inquirer:
         specifier: 12.6.0
         version: 12.6.0(@types/node@22.15.2)
@@ -53,8 +53,8 @@ packages:
     engines: {node: '>=16.9.0'}
     deprecated: no longer supported
 
-  '@discordjs/builders@1.11.1':
-    resolution: {integrity: sha512-2zDAVuoeAkdv0YQzYKO8vZfaDfB+1KZ60ymBKtD7QDpsh6lzAnQSUBLqeRkhlons6BT9+yRctOh9fPy94w6kDA==}
+  '@discordjs/builders@1.11.2':
+    resolution: {integrity: sha512-F1WTABdd8/R9D1icJzajC4IuLyyS8f3rTOz66JsSI3pKvpCAtsMBweu8cyNYsIyvcrKAVn9EPK+Psoymq+XC0A==}
     engines: {node: '>=16.11.0'}
 
   '@discordjs/collection@0.1.6':
@@ -509,8 +509,8 @@ packages:
     resolution: {integrity: sha512-h13kUf+7ZaP5ZWggzooCxFutvJJvugcAO54oTEIdVr3zQWi0Sf/61S1kETtuY9nVAyYebXR/Ey4C+oWbsgEkew==}
     engines: {node: '>=16.6.0', npm: '>=7.0.0'}
 
-  discord.js@14.19.2:
-    resolution: {integrity: sha512-L/ivhVefzzRcChHJSaGYsgA4Uqx6or2sst5JZ/ft9OBwrj8OJIzrrcutlkHnm/hlI0Hrm3es62TRVksU8VUqrg==}
+  discord.js@14.19.3:
+    resolution: {integrity: sha512-lncTRk0k+8Q5D3nThnODBR8fR8x2fM798o8Vsr40Krx0DjPwpZCuxxTcFMrXMQVOqM1QB9wqWgaXPg3TbmlHqA==}
     engines: {node: '>=18'}
 
   dunder-proto@1.0.1:
@@ -1185,7 +1185,7 @@ snapshots:
       ts-mixer: 6.0.4
       tslib: 2.8.1
 
-  '@discordjs/builders@1.11.1':
+  '@discordjs/builders@1.11.2':
     dependencies:
       '@discordjs/formatters': 0.6.1
       '@discordjs/util': 1.1.1
@@ -1644,9 +1644,9 @@ snapshots:
       - encoding
       - utf-8-validate
 
-  discord.js@14.19.2:
+  discord.js@14.19.3:
     dependencies:
-      '@discordjs/builders': 1.11.1
+      '@discordjs/builders': 1.11.2
       '@discordjs/collection': 1.5.3
       '@discordjs/formatters': 0.6.1
       '@discordjs/rest': 2.5.0
