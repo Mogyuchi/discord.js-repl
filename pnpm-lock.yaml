@@ -24,8 +24,8 @@ importers:
         specifier: npm:discord.js@13.17.1
         version: discord.js@13.17.1
       discord.js-v14:
-        specifier: npm:discord.js@14.22.0
-        version: discord.js@14.22.0
+        specifier: npm:discord.js@14.22.1
+        version: discord.js@14.22.1
       inquirer:
         specifier: 12.9.3
         version: 12.9.3(@types/node@24.1.0)
@@ -478,8 +478,8 @@ packages:
     resolution: {integrity: sha512-h13kUf+7ZaP5ZWggzooCxFutvJJvugcAO54oTEIdVr3zQWi0Sf/61S1kETtuY9nVAyYebXR/Ey4C+oWbsgEkew==}
     engines: {node: '>=16.6.0', npm: '>=7.0.0'}
 
-  discord.js@14.22.0:
-    resolution: {integrity: sha512-IDSeDdWSEA4DoOyspekbetcFKkEonJO09cxR+kqQQlTWd5CTm/3Z48I4Te+EL8uxn52s718FZ0rI2dLxRkTpwg==}
+  discord.js@14.22.1:
+    resolution: {integrity: sha512-3k+Kisd/v570Jr68A1kNs7qVhNehDwDJAPe4DZ2Syt+/zobf9zEcuYFvsfIaAOgCa0BiHMfOOKQY4eYINl0z7w==}
     engines: {node: '>=18'}
 
   dunder-proto@1.0.1:
@@ -1372,7 +1372,7 @@ snapshots:
       - encoding
       - utf-8-validate
 
-  discord.js@14.22.0:
+  discord.js@14.22.1:
     dependencies:
       '@discordjs/builders': 1.11.2
       '@discordjs/collection': 1.5.3
