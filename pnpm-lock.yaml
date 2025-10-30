@@ -24,8 +24,8 @@ importers:
         specifier: npm:discord.js@13.17.1
         version: discord.js@13.17.1
       discord.js-v14:
-        specifier: npm:discord.js@14.24.1
-        version: discord.js@14.24.1
+        specifier: npm:discord.js@14.24.2
+        version: discord.js@14.24.2
       inquirer:
         specifier: 12.9.6
         version: 12.9.6(@types/node@24.3.1)
@@ -472,9 +472,10 @@ packages:
   discord.js@13.17.1:
     resolution: {integrity: sha512-h13kUf+7ZaP5ZWggzooCxFutvJJvugcAO54oTEIdVr3zQWi0Sf/61S1kETtuY9nVAyYebXR/Ey4C+oWbsgEkew==}
     engines: {node: '>=16.6.0', npm: '>=7.0.0'}
+    deprecated: Version 13 is no longer supported.
 
-  discord.js@14.24.1:
-    resolution: {integrity: sha512-LzL+MTGxB9mBwD8FjvkMwcIL4UtgG04e713U3+euqPCvOphhoVEoPpUNTvBPw4iJOas2uiuuh3JcveYSxIn8Tg==}
+  discord.js@14.24.2:
+    resolution: {integrity: sha512-VMEDbmguRdX/EeMaTsf9Mb0IQA90WdYF2cn4QDfslQFXgQ6LFtmlPn0FSotnS0kcFbFp+JBSIxtnF+bnAHG/hQ==}
     engines: {node: '>=18'}
 
   dunder-proto@1.0.1:
@@ -1351,7 +1352,7 @@ snapshots:
       - encoding
       - utf-8-validate
 
-  discord.js@14.24.1:
+  discord.js@14.24.2:
     dependencies:
       '@discordjs/builders': 1.13.0
       '@discordjs/collection': 1.5.3
