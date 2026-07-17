@@ -30,8 +30,8 @@ importers:
         specifier: 12.11.1
         version: 12.11.1(@types/node@24.3.1)
       module-alias:
-        specifier: 2.2.3
-        version: 2.2.3
+        specifier: 2.3.4
+        version: 2.3.4
       preferences:
         specifier: 2.0.2
         version: 2.0.2
@@ -717,8 +717,8 @@ packages:
   minimatch@3.1.2:
     resolution: {integrity: sha512-J7p63hRiAjw1NDEww1W7i37+ByIrOWO5XQQAzZ3VOcL0PNybwpfmV/N05zFAzwQ9USyEcX6t3UO+K5aqBQOIHw==}
 
-  module-alias@2.2.3:
-    resolution: {integrity: sha512-23g5BFj4zdQL/b6tor7Ji+QY4pEfNH784BMslY9Qb0UnJWRAt+lQGLYmRaM0KDBwIG23ffEBELhZDP2rhi9f/Q==}
+  module-alias@2.3.4:
+    resolution: {integrity: sha512-bOclZt8hkpuGgSSoG07PKmvzTizROilUTvLNyrMqvlC9snhs7y7GzjNWAVbISIOlhCP1T14rH1PDAV9iNyBq/w==}
 
   ms@2.1.3:
     resolution: {integrity: sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==}
@@ -1620,7 +1620,7 @@ snapshots:
     dependencies:
       brace-expansion: 1.1.12
 
-  module-alias@2.2.3: {}
+  module-alias@2.3.4: {}
 
   ms@2.1.3: {}
 
