@@ -30,8 +30,8 @@ importers:
         specifier: 12.11.1
         version: 12.11.1(@types/node@24.3.1)
       module-alias:
-        specifier: 2.3.4
-        version: 2.3.4
+        specifier: 2.3.5
+        version: 2.3.5
       preferences:
         specifier: 2.0.2
         version: 2.0.2
@@ -303,10 +303,12 @@ packages:
   '@sapphire/shapeshift@3.9.7':
     resolution: {integrity: sha512-4It2mxPSr4OGn4HSQWGmhFMsNFGfFVhWeRPCRwbH972Ek2pzfGRZtb0pJ4Ze6oIzcyh2jw7nUDa6qGlWofgd9g==}
     engines: {node: '>=v16'}
+    deprecated: Shapeshift was created when other validation libraries had significant limitations in performance and error reporting. Those advantages have diminished as libraries such as Zod have become faster and improved their error messages, while also gaining broader environment support, a larger community, and custom error printers.
 
   '@sapphire/shapeshift@4.0.0':
     resolution: {integrity: sha512-d9dUmWVA7MMiKobL3VpLF8P2aeanRTu6ypG2OIaEv/ZHH/SUQ2iHOVyi5wAPjQ+HmnMuL0whK9ez8I/raWbtIg==}
     engines: {node: '>=v16'}
+    deprecated: Shapeshift was created when other validation libraries had significant limitations in performance and error reporting. Those advantages have diminished as libraries such as Zod have become faster and improved their error messages, while also gaining broader environment support, a larger community, and custom error printers.
 
   '@sapphire/snowflake@3.5.5':
     resolution: {integrity: sha512-xzvBr1Q1c4lCe7i6sRnrofxeO1QTP/LKQ6A6qy0iB4x5yfiSfARMEQEghojzTNALDTcv8En04qYNIco9/K9eZQ==}
@@ -721,8 +723,8 @@ packages:
   minimatch@3.1.5:
     resolution: {integrity: sha512-VgjWUsnnT6n+NUk6eZq77zeFdpW2LWDzP6zFGrCbHXiYNul5Dzqk2HHQ5uFH2DNW5Xbp8+jVzaeNt94ssEEl4w==}
 
-  module-alias@2.3.4:
-    resolution: {integrity: sha512-bOclZt8hkpuGgSSoG07PKmvzTizROilUTvLNyrMqvlC9snhs7y7GzjNWAVbISIOlhCP1T14rH1PDAV9iNyBq/w==}
+  module-alias@2.3.5:
+    resolution: {integrity: sha512-hbei6S1tXkg/P+ZJTyUqqL66LOeg/40WGcZYPFzIeBltTCRm+O4IZ/KRtR9hGanXaJxuvPj9q9ldl/cmbV6Osw==}
 
   ms@2.1.3:
     resolution: {integrity: sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==}
@@ -1639,7 +1641,7 @@ snapshots:
     dependencies:
       brace-expansion: 1.1.12
 
-  module-alias@2.3.4: {}
+  module-alias@2.3.5: {}
 
   ms@2.1.3: {}
 
